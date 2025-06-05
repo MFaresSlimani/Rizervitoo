@@ -1,8 +1,6 @@
 import 'package:supabase_flutter/supabase_flutter.dart';
 import 'package:Rizervitoo/core/services/user_service.dart';
 import 'package:Rizervitoo/models/reservation_model.dart';
-import 'package:Rizervitoo/models/user_model.dart';
-import '../../models/reservation_model.dart';
 import 'property_service.dart';
 
 class ReservationService {
@@ -40,8 +38,6 @@ class ReservationService {
       'is_aproved': false,
       'is_canceled': false,
     }).select().single();
-
-    if (response == null) return null;
     final reservation = ReservationModel.fromJson(response);
 
     // Fetch property owner

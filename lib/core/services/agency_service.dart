@@ -12,7 +12,6 @@ class AgencyService {
   }
   Future<AgencyModel?> fetchAgencyById(String agencyId) async {
     final response = await _client.from('agencies').select().eq('id', agencyId).single();
-    if (response == null) return null;
     return AgencyModel.fromJson(response);
   }
   
@@ -33,7 +32,6 @@ class AgencyService {
       'phone_number': phoneNumber,
     }).select().single();
 
-    print('Supabase insert response: $response');
     return AgencyModel.fromJson(response);
   }
 

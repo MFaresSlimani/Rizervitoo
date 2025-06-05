@@ -1,4 +1,3 @@
-import 'package:Rizervitoo/controllers/property_controller.dart';
 import 'package:Rizervitoo/core/services/property_service.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
@@ -6,10 +5,9 @@ import 'package:intl/intl.dart';
 import 'package:Rizervitoo/core/services/reservation_service.dart';
 import 'package:Rizervitoo/controllers/user_controller.dart';
 import 'package:Rizervitoo/models/reservation_model.dart';
-import 'package:path/path.dart';
 
 class ReservationsScreen extends StatefulWidget {
-  const ReservationsScreen({Key? key}) : super(key: key);
+  const ReservationsScreen({super.key});
 
   @override
   State<ReservationsScreen> createState() => _ReservationsScreenState();

@@ -1,7 +1,6 @@
 import 'package:get/get.dart';
 import '../models/agency_model.dart';
 import '../core/services/agency_service.dart';
-import 'user_controller.dart';
 
 class AgencyController extends GetxController {
   final agencies = <AgencyModel>[].obs;

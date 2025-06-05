@@ -16,8 +16,7 @@ class PropertyCard extends StatelessWidget {
   Widget build(BuildContext context) {
     final PropertyController propertyController =
         Get.find<PropertyController>();
-    final isSaved =
-        propertyController.savedProperties.any((p) => p.id == property.id);
+    propertyController.savedProperties.any((p) => p.id == property.id);
 
     return Card(
       margin: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),

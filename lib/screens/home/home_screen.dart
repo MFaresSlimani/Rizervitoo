@@ -9,7 +9,6 @@ import 'package:Rizervitoo/widgets/my_drawer.dart';
 import 'package:Rizervitoo/widgets/notifications_overlay.dart';
 import 'package:lucide_icons/lucide_icons.dart';
 
-import '../../core/services/user_service.dart';
 import 'agencies_screen.dart';
 import 'properties_screen.dart';
 

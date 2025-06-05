@@ -41,9 +41,7 @@ class UserService {
 
   Future<String> uploadProfileImage(String fileName, File image) async {
     final oldImage = await _client.storage.from('avatars').list();
-    if (oldImage != null && oldImage.isNotEmpty) {
-      print('oldImage: $oldImage');
-    }
+    
     if (oldImage.isNotEmpty) {
       for (var file in oldImage) {
         await _client.storage.from('avatars').remove(['public/${file.name}']);

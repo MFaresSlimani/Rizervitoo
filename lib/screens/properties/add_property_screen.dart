@@ -1,11 +1,9 @@
-import 'dart:ffi';
 import 'dart:io';
 import 'package:Rizervitoo/controllers/user_controller.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:Rizervitoo/core/services/property_service.dart';
-import 'package:supabase_flutter/supabase_flutter.dart';
 
 import '../../models/property_model.dart';
 
@@ -13,7 +11,7 @@ class AddPropertyScreen extends StatefulWidget {
   final String selectedWilaya;
   final PropertyModel? property; // <-- Add this
 
-  AddPropertyScreen(
+  const AddPropertyScreen(
       {super.key, this.selectedWilaya = 'Algiers', this.property});
 
   @override

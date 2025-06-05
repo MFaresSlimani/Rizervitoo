@@ -5,7 +5,6 @@ import 'package:image_picker/image_picker.dart';
 import 'package:Rizervitoo/controllers/agency_controller.dart';
 import 'package:Rizervitoo/controllers/user_controller.dart';
 import 'package:Rizervitoo/core/services/agency_service.dart';
-import 'package:Rizervitoo/models/agency_model.dart';
 import 'package:supabase_flutter/supabase_flutter.dart';
 import '../../widgets/loading_indicator.dart';
 
@@ -90,7 +89,6 @@ class _AddAgencyScreenState extends State<AddAgencyScreen> {
       Get.snackbar('Success', 'Agency added successfully!',
           backgroundColor: Colors.green.shade100, colorText: Colors.black);
     } catch (e) {
-      print('Add agency error: $e');
       Get.snackbar('Error', 'Failed to add agency.',
           backgroundColor: Colors.red.shade100, colorText: Colors.black);
     } finally {

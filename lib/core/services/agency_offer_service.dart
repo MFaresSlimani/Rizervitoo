@@ -18,7 +18,6 @@ class AgencyOfferService {
         .insert(offer.toJson()..remove('id'))
         .select()
         .single();
-    if (response == null) return null;
     return AgencyOffer.fromJson(response);
   }
 

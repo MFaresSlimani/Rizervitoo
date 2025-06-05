@@ -1,6 +1,3 @@
-import 'package:Rizervitoo/core/services/user_service.dart';
-import 'package:Rizervitoo/models/user_model.dart';
-
 class PropertyModel {
   final String id;
   final String title;

@@ -1,5 +1,3 @@
-import 'package:get/get.dart';
-import 'package:Rizervitoo/controllers/user_controller.dart';
 import 'package:supabase_flutter/supabase_flutter.dart';
 import '../../models/user_model.dart';
 

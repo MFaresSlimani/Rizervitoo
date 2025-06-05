@@ -1,5 +1,4 @@
 import 'package:get/get.dart';
-import '../core/services/user_service.dart';
 import '../models/user_model.dart';
 
 class UserController extends GetxController {
