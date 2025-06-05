@@ -6,11 +6,22 @@ DZ Rentals is a modern mobile app built for people in Algeria looking to **rent 
 
 ## 📱 What You Can Do
 
-- 🔍 **Browse properties** by wilaya (Medea, Algiers, Oran, etc.)
-- 🏡 **View detailed listings** with photos, descriptions, prices, and distance to key landmarks
-- 📝 **Create and manage your own listings** (for property owners or agencies)
-- 👤 **Set up a personal profile** with your name, phone number, and photo
-- 🔐 **Log in securely** and manage your account easily
+- 🔍 **Browse properties** by wilaya (Medea, Algiers, Oran, and more!)
+- 🏡 **View detailed listings** with photos, descriptions, prices, and distances to key landmarks
+- 📝 **Create, edit, and manage your own listings** if you’re a property owner or agency
+- 👤 **Set up your personal profile** with your name, phone number, and photo
+- 🔐 **Secure login and easy account management**
+- 🌍 **Explore the Travel Guide** to discover must-visit places in every wilaya
+- 🚗 **Browse travel agencies and their offers** — or add your own to get noticed!
+- 📅 **Reserve properties for rent** hassle-free
+- 🔎 **Search and filter** by any criteria to find exactly what you want
+- ❤️ **Manage your favorite properties** all in one place
+- 🔔 **Get notifications** when your reservation is accepted or updated
+- ✏️ **Edit or delete your properties** anytime you want
+- 🌐 **Available in Arabic, English, and French**
+- 🌙 **Supports both dark and light themes** for a comfortable experience
+- 🚀 **And many more awesome features coming your way!**
+
 
 ---
 
