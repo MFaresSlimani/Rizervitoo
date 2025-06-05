@@ -37,16 +37,16 @@ DZ Rentals is a modern mobile app built for people in Algeria looking to **rent 
 
 ---
 
-## 🚧 Status
+## 🚧 Work in Progress (But Looking Good!)
 
-The app is currently under active development and growing fast. Stay tuned for updates!
+The app is shaping up nicely — lots of features are done, but I’m always tweaking and improving. Expect cool updates anytime, because this project never sleeps! Stay tuned and enjoy the ride!
 
 ---
 
 ## 🤝 Contact the Developer
 
 Mohamed Fares SLIMANI  
-[GitHub](https://github.com/fares-slimani) | [LinkedIn](https://www.linkedin.com/in/fares-slimani)
+[GitHub](https://github.com/MFaresSlimani) | [LinkedIn](https://www.linkedin.com/in/faresslimani01)
 
 ---
 
