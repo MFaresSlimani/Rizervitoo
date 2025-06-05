@@ -1,6 +1,6 @@
-# 🏠 DZ Rentals – Discover & List Properties in Algeria
+# 🏠 REZERVITOO – Discover & List Properties in Algeria
 
-DZ Rentals is a modern mobile app built for people in Algeria looking to **rent properties** or **list their own for rent**. Whether you're a tourist exploring different wilayas or a local looking for housing, DZ Rentals makes the process easy and intuitive.
+Rezervitoo is a modern mobile app built for people in Algeria looking to **rent properties** or **list their own for rent**. Whether you're a tourist exploring different wilayas or a local looking for housing, DZ Rentals makes the process easy and intuitive.
 
 ---
 
