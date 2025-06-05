@@ -1,5 +1,5 @@
-name: siyahati
-description: "A new Flutter project."
+name: Rizervitoo
+description: "Rizervitoo is an app dedicated to helping tourism in Algeria. Discover, book, and explore properties and agencies with ease. Our mission is to make travel and tourism in Algeria simple and accessible for everyone."
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
@@ -39,6 +39,21 @@ dependencies:
   google_fonts: ^6.2.1
   image_picker: ^1.1.2
   path: ^1.9.0
+  get_storage: ^2.1.1
+  url_launcher: ^6.3.1
+  google_nav_bar: ^5.0.7
+  intl: ^0.20.2
+  flutter_image_compress: ^2.4.0
+  uuid: ^4.5.1
+  timeago: ^3.7.1
+  photo_view: ^0.15.0
+  fluentui_system_icons: ^1.1.273
+  lucide_icons: ^0.257.0
+  overflow_text_animated: ^0.0.6
+  glassmorphism: ^3.0.0
+  shimmer: ^3.0.0
+  lottie: ^3.3.1
+  animated_background: ^2.0.0
 
 dev_dependencies:
   flutter_test:

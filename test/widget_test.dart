@@ -8,12 +8,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 
-import 'package:siyahati/main.dart';
+import 'package:Rizervitoo/main.dart';
 
 void main() {
   testWidgets('Counter increments smoke test', (WidgetTester tester) async {
     // Build our app and trigger a frame.
-    await tester.pumpWidget(const SiyahatiApp());
+    await tester.pumpWidget(RizervitooApp( initialLocale: Locale('en','UK'),));
 
     // Verify that our counter starts at 0.
     expect(find.text('0'), findsOneWidget);

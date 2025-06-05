@@ -1,0 +1,424 @@
+[
+  {
+    "wilaya": "Algiers",
+    "places": [
+      {
+        "name": "القصبة (La Casbah)",
+        "description": "حي تاريخي مصنف كموقع تراث عالمي من طرف اليونسكو. يتميز بأزقته الضيقة، المنازل العثمانية القديمة، ومساجد تاريخية مثل جامع كتشاوة.",
+        "location": "وسط الجزائر العاصمة، بالقرب من ساحة الشهداء",
+        "imageUrl": "https://alger.mta.gov.dz/wp-content/uploads/sites/6/2022/01/La-casbah-dAlger-thegem-blog-timeline-large.jpg"
+      },
+      {
+        "name": "حديقة التجارب بالحامة (Jardin d'Essai du Hamma)",
+        "description": "واحدة من أقدم وأجمل الحدائق النباتية في إفريقيا، تحتوي على أنواع نادرة من النباتات ومسارات رائعة للمشي.",
+        "location": "حي الحامة، قرب مقام الشهيد",
+        "imageUrl": "https://www.boonyaninfo.com/wp-content/uploads/2023/07/Boonyan-Images-Articles-6.png"
+      },
+      {
+        "name": "كورنيش الصابلات (Parc des Sablettes)",
+        "description": "منتزه ساحلي عصري على خليج الجزائر، يوفر مناظر خلابة، أماكن للجلوس، وممرات للدراجات والمشي.",
+        "location": "بجانب البحر، شرق وسط العاصمة",
+        "imageUrl": "https://www.lejeune-independant.dz/wp-content/uploads/2023/08/sablettes-alger-e1692139741350.jpg"
+      }
+    ]
+  },
+  {
+    "wilaya": "Tipaza",
+    "places": [
+      {
+        "name": "قبر الرومية (الضريح الملكي الموريتاني)",
+        "description": "معلم أثري ضخم يعود للقرن الثالث قبل الميلاد، يُعتقد أنه ضريح الملك النوميدي يوبا الثاني وزوجته كليوباترا سيليني.",
+        "location": "بين الجزائر العاصمة وولاية تيبازة، على الطريق الوطني رقم 11",
+        "imageUrl": "https://www.kuna.net.kw/NewsPictures/2024/10/2/b131c38e-ef00-4bfd-bcd4-cf9cb0873bd6.jpg"
+      },
+      {
+        "name": "مركب شاطئ الذهبي",
+        "description": "مركب سياحي يضم شاطئًا نظيفًا، مرافق للسباحة، مطاعم، ومناطق للترفيه الصيفي.",
+        "location": "شاطئ شنوة، غرب تيبازة",
+        "imageUrl": "https://pbs.twimg.com/media/FX-5d6FX0AAzLHV.jpg"
+      }
+    ]
+  },
+  {
+    "wilaya": "Oran",
+    "places": [
+      {
+        "name": "قلعة سانتا كروز (Fort Santa Cruz)",
+        "description": "معلم تاريخي يعود للحقبة الإسبانية، يقع على جبل مرجاجو ويطل على خليج وهران، ويوفر إطلالة بانورامية رائعة.",
+        "location": "جبل مرجاجو، وهران",
+        "imageUrl": "https://oran.mta.gov.dz/wp-content/uploads/sites/22/2022/02/fort-santa-cruz.jpg"
+      },
+      {
+        "name": "شاطئ مداغ 1 (Plage de Madagh 1)",
+        "description": "واحد من أجمل شواطئ وهران، يتميز بمياهه الصافية ورماله الذهبية، ويقع في محيط طبيعي رائع.",
+        "location": "غرب وهران، على الطريق إلى عين الترك",
+        "imageUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0b/74/58/63/plage-de-madagh-1-oran.jpg?w=600&h=-1&s=1"
+      }
+    ]
+  },
+  {
+    "wilaya": "Jijel",
+    "places": [
+      {
+        "name": "الكهوف العجيبة (Grotte Merveilleuse)",
+        "description": "كهوف طبيعية مدهشة تتميز بتكوينات صخرية رائعة وممرات ساحرة.",
+        "location": "قرب مدينة جيجل",
+        "imageUrl": "https://lapatrienews.dz/wp-content/uploads/2022/09/WhatsApp-Image-2022-08-22-at-16.27.25.jpeg"
+      },
+      {
+        "name": "الشاطئ الأسود (Plage Noire - Ziama Mansouriah)",
+        "description": "شاطئ شهير برماله الداكنة ومياهه الصافية.",
+        "location": "زيامة منصورية، جيجل",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQvzP94d5xNNmB30-XPXDBPfVY0Ypw-Z0bcA&s"
+      }
+    ]
+  },
+  {
+    "wilaya": "Béjaïa",
+    "places": [
+      {
+        "name": "رأس كربون (Cap Carbon)",
+        "description": "أعلى منارة في البحر الأبيض المتوسط بمنظر خلاب على البحر.",
+        "location": "شمال بجاية",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOYQiWAy_UtUpndYRh1SvEG_a5290ZYemr3g&s"
+      },
+      {
+        "name": "يما ڤورايا",
+        "description": "جبل تاريخي يطل على المدينة، موطن لأسطورة يما ڤورايا.",
+        "location": "قرب وسط بجاية",
+        "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjtSIGuUnHaLxsN4dnVm6PvlHh3lRPaoyexjEMSnd5LaVX71QEFIYXy0vyZUs-PQhZdW9-T3_yEWdCJ2d5lQbY7xdTGRS3MAVgsrxFLPMp1Sq4c1XyeMcedSbKqR5gbLpZrzn50nHZs0Jo/s1600/Yemma_Gouraya.jpg"
+      }
+    ]
+  },
+  {
+    "wilaya": "Constantine",
+    "places": [
+      {
+        "name": "جسر سيدي مسيد",
+        "description": "جسر معلق يُعد من أبرز معالم قسنطينة، يربط بين ضفتي وادي الرمال ويُوفر إطلالة رائعة على المدينة.",
+        "location": "وادي الرمال، قسنطينة",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/32/Pont_de_Sidi_Msid_-_constantine_%D8%AC%D8%B3%D8%B1_%D8%B3%D9%8A%D8%AF%D9%8A_%D9%85%D8%B3%D9%8A%D8%AF_-_%D9%82%D8%B3%D9%86%D8%B7%D9%8A%D9%86%D8%A9.jpg"
+      },
+      {
+        "name": "قصر أحمد باي",
+        "description": "قصر تاريخي بُني في القرن التاسع عشر، يتميز بتصميمه المعماري العثماني ويُعد من أبرز المعالم الثقافية في قسنطينة.",
+        "location": "وسط قسنطينة",
+        "imageUrl": "https://www.elmoudjahid.com/storage/images/article/6e3494f7c832d0838d911565e95ca475.jpg"
+      }
+    ]
+  },
+  {
+    "wilaya": "Sétif",
+    "places": [
+      {
+        "name": "عين الفوارة",
+        "description": "نافورة مشهورة تقع في قلب مدينة سطيف، تُعد رمزًا ثقافيًا وسياحيًا، حيث يتوافد عليها الزوار والسكان المحليون.",
+        "location": "وسط مدينة سطيف",
+        "imageUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/22/3f/a5/ain-el-fouara.jpg?w=1200&h=1200&s=1"
+      },
+      {
+        "name": "موقع جميلة الأثري (Cuicul)",
+        "description": "مدينة رومانية قديمة مصنفة ضمن التراث العالمي لليونسكو، تحتوي على مسارح، معابد، وحمامات رومانية محفوظة جيدًا.",
+        "location": "ضواحي سطيف",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQb-tWJPVsSJiYVoy2WkUdv4_SAJcvkqeMGLA&s"
+      }
+    ]
+  },
+  {
+    "wilaya": "Boumerdès",
+    "places": [
+      {
+        "name": "شاطئ قورصو",
+        "description": "شاطئ رملي نظيف يتميز بمياهه الصافية، يُعد وجهة مفضلة للعائلات ومحبي السباحة.",
+        "imageUrl": "https://www.exploralgerie.com/wp-content/uploads/2020/07/plage-corso.jpg"
+      },
+      {
+        "name": "رأس الجنات",
+        "description": "منطقة ساحلية خلابة تتميز بتضاريسها الصخرية ومناظرها الطبيعية الرائعة، مثالية للنزهات والتصوير.",
+        "imageUrl": "https://www.exploralgerie.com/wp-content/uploads/2020/07/cap-djinet.jpg"
+      },
+      {
+        "name": "حمام البكارة",
+        "description": "حمام تقليدي بمياه معدنية حارة يُعتقد أن لها فوائد علاجية، يستقطب الزوار من مختلف المناطق.",
+        "imageUrl": "https://www.exploralgerie.com/wp-content/uploads/2020/07/hammam-bekkara.jpg"
+      },
+      {
+        "name": "القصبة القديمة",
+        "description": "حي تاريخي يحتفظ بطابعه التقليدي، يعكس التراث المعماري والثقافي للمنطقة.",
+        "imageUrl": "https://www.exploralgerie.com/wp-content/uploads/2020/07/casbah-boumerdes.jpg"
+      },
+      {
+        "name": "الحدائق الحضرية",
+        "description": "مساحات خضراء في قلب المدينة توفر أماكن للاسترخاء والأنشطة العائلية.",
+        "imageUrl": "https://www.exploralgerie.com/wp-content/uploads/2020/07/jardin-boumerdes.jpg"
+      }
+    ]
+  },
+
+  {
+    "wilaya": "Medea",
+    "places": [
+      {
+        "name": "نادي ركوب الخيل بتمزقيدة",
+        "description": "نادي يقدم دروسًا في الفروسية وجولات على ظهور الخيل في الطبيعة، مناسب لجميع الأعمار.",
+        "imageUrl": "https://www.exploralgerie.com/wp-content/uploads/2020/07/club-equestre-tamesguida.jpg"
+      },
+      {
+        "name": "الضاية",
+        "description": "بحيرة طبيعية محاطة بالغابات، تُعد ملاذًا لمحبي الطبيعة ومكانًا مثاليًا للتنزه.",
+        "imageUrl": "https://www.exploralgerie.com/wp-content/uploads/2020/07/lac-daia.jpg"
+      },
+      {
+        "name": "حديقة بن شكاو",
+        "description": "حديقة عامة توفر مساحات خضراء ومناطق للجلوس، مناسبة للعائلات والأطفال.",
+        "imageUrl": "https://www.exploralgerie.com/wp-content/uploads/2020/07/parc-ben-chicao.jpg"
+      },
+      {
+        "name": "حمام صالحين البرواقية",
+        "description": "حمام تقليدي بمياه حارة معدنية، يُعتقد أن لها خصائص علاجية.",
+        "imageUrl": "https://www.exploralgerie.com/wp-content/uploads/2020/07/hammam-salhine.jpg"
+      },
+      {
+        "name": "كنيسة تبحرين",
+        "description": "كنيسة تاريخية تعود إلى الحقبة الاستعمارية، تتميز بطرازها المعماري الفريد.",
+        "imageUrl": "https://www.exploralgerie.com/wp-content/uploads/2020/07/eglise-tabharine.jpg"
+      }
+    ]
+  },
+
+  {
+    "wilaya": "Tizi Ouzou",
+    "places": [
+      {
+        "name": "جبل تسكرا",
+        "description": "منطقة جبلية خلابة تُعد وجهة مفضلة لمحبي المشي لمسافات طويلة والتخييم.",
+        "imageUrl": "https://www.exploralgerie.com/wp-content/uploads/2020/07/jbel-tazekka.jpg"
+      },
+      {
+        "name": "قرية إفرحونن",
+        "description": "قرية تقليدية تعكس الثقافة الأمازيغية، تتميز بمنازلها الحجرية ومناظرها الطبيعية.",
+        "imageUrl": "https://www.exploralgerie.com/wp-content/uploads/2020/07/ifrahounene.jpg"
+      }
+    ]
+  },
+  {
+    "wilaya": "Blida",
+    "places": [
+      {
+        "name": "الشريعة",
+        "description": "منتجع جبلي يقع على ارتفاع 1,500 متر، معروف بتلفريكه ومناظره الطبيعية الخلابة، خاصة في فصل الشتاء.",
+        "imageUrl": "https://www.exploralgerie.com/wp-content/uploads/2020/07/chrea.jpg"
+      },
+      {
+        "name": "حديقة التجارب",
+        "description": "حديقة نباتية تضم مجموعة متنوعة من النباتات والأشجار، مكان مثالي للاسترخاء والتعلم.",
+        "imageUrl": "https://www.exploralgerie.com/wp-content/uploads/2020/07/jardin-essais.jpg"
+      },
+      {
+        "name": "كهف بني عاد",
+        "description": "كهف طبيعي يتميز بتكويناته الصخرية الفريدة، يُعد من أبرز المعالم السياحية في المنطقة.",
+        "imageUrl": "https://www.exploralgerie.com/wp-content/uploads/2020/07/grotte-beni-add.jpg"
+      },
+      {
+        "name": "ساحة التوت",
+        "description": "ساحة تاريخية محاطة بالأشجار والمقاهي، تُعد مكانًا مفضلًا للتجمعات والفعاليات.",
+        "imageUrl": "https://www.exploralgerie.com/wp-content/uploads/2020/07/place-muriers.jpg"
+      },
+      {
+        "name": "منطقة بروموسيم",
+        "description": "منطقة خضراء تضم مسارات للمشي ومساحات للاستراحة، مثالية للنزهات العائلية.",
+        "imageUrl": "https://www.exploralgerie.com/wp-content/uploads/2020/07/promosim.jpg"
+      },
+      {
+        "name": "نادي فروسية متيجة",
+        "description": "نادي يقدم دروسًا في الفروسية وجولات على ظهور الخيل، مناسب لجميع الأعمار.",
+        "imageUrl": "https://www.exploralgerie.com/wp-content/uploads/2020/07/club-equestre-mitidja.jpg"
+      }
+    ]
+  },
+  {
+    "wilaya": "Tamanrasset",
+    "places": [
+      {
+        "name": "أسكرام (Assekrem)",
+        "description": "منطقة جبلية تقع في سلسلة جبال الهقار، تُعرف بمناظرها الخلابة وغروب الشمس الساحر.",
+        "location": "تقع على بعد حوالي 80 كم شمال شرق مدينة تمنراست",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Assekrem.jpg"
+      },
+      {
+        "name": "الهقار",
+        "description": "سلسلة جبلية بركانية تُعد من أبرز المعالم الطبيعية في الجزائر، وتتميز بتضاريسها الوعرة.",
+        "location": "تمتد عبر جنوب الجزائر، وتُعتبر تمنراست نقطة انطلاق مثالية لاستكشافها",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Hoggar_Mountains.jpg"
+      },
+      {
+        "name": "ضريح الأب شارل دو فوكو",
+        "description": "موقع ديني وتاريخي يُخلد ذكرى الراهب الفرنسي شارل دو فوكو، الذي عاش بين الطوارق.",
+        "location": "يقع في منطقة أسكرام",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Tomb_of_Charles_de_Foucauld.jpg"
+      },
+      {
+        "name": "صحراء تاظروك",
+        "description": "صحراء شاسعة تتميز بالكثبان الرملية والتكوينات الصخرية الفريدة.",
+        "location": "تقع شمال شرق تمنراست",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Tazrouk_Desert.jpg"
+      },
+      {
+        "name": "ممر أهل نغر",
+        "description": "ممر جبلي يُعتبر من الطرق التقليدية التي استخدمها السكان المحليون.",
+        "location": "يقع في منطقة الهقار",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Ahel_Negr_Pass.jpg"
+      }
+    ]
+  },
+  {
+    "wilaya": "Bou Saâda",
+    "places": [
+      {
+        "name": "واد بوسعادة",
+        "description": "وادي يمر عبر المدينة، يُضفي جمالاً طبيعياً ويُستخدم للزراعة.",
+        "location": "يمر وسط مدينة بوسعادة",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Oued_Bousaada.jpg"
+      },
+      {
+        "name": "متحف نصر الدين ديني",
+        "description": "متحف يُخلد أعمال الفنان الفرنسي نصر الدين ديني، الذي تأثر بالثقافة الجزائرية.",
+        "location": "يقع في بوسعادة",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Nasreddine_Dinet_Museum.jpg"
+      },
+      {
+        "name": "الزاوية القاسمية",
+        "description": "مركز ديني وتعليمي يُعتبر من المعالم التاريخية في بوسعادة.",
+        "location": "تقع في المدينة القديمة",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Zawiya_Qasimiya.jpg"
+      },
+      {
+        "name": "القصبة القديمة",
+        "description": "حي تاريخي يُظهر العمارة التقليدية للمنطقة.",
+        "location": "وسط بوسعادة",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Old_Kasbah_Bousaada.jpg"
+      },
+      {
+        "name": "المقابر النبطية",
+        "description": "مواقع أثرية تعود للحضارة النبطية، تُظهر التأثيرات الثقافية القديمة.",
+        "location": "في ضواحي بوسعادة",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Nabataean_Tombs_Bousaada.jpg"
+      }
+    ]
+  },
+  {
+    "wilaya": "Djanet",
+    "places": [
+      {
+        "name": "تاسيلي ناجر",
+        "description": "هضبة صخرية تُعد من مواقع التراث العالمي، وتحتوي على أقدم الرسومات الصخرية في العالم.",
+        "location": "تقع في جنوب شرق الجزائر، بالقرب من جانت",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Tassili_n_Ajjer.jpg"
+      },
+      {
+        "name": "الكثبان الرملية الذهبية",
+        "description": "مساحات شاسعة من الرمال الذهبية التي تُعد من أبرز معالم الصحراء الكبرى.",
+        "location": "تحيط بمدينة جانت من الجهات الأربع",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Golden_Sand_Dunes_Janet.jpg"
+      },
+      {
+        "name": "الوادي الأزرق",
+        "description": "وادي يتميز بتدرجاته اللونية وتكويناته الجيولوجية الفريدة.",
+        "location": "يقع بالقرب من جانت",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Blue_Valley_Janet.jpg"
+      },
+      {
+        "name": "كهف \"السفن الطائرة\"",
+        "description": "كهف يحتوي على رسومات غامضة تُشبه السفن الطائرة، ويثير اهتمام الباحثين في ما قبل التاريخ.",
+        "location": "ضمن هضبة تاسيلي ناجر",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Flying_Ships_Cave.jpg"
+      },
+      {
+        "name": "الواحات المحيطة",
+        "description": "واحات خضراء توفر التمر والماء في قلب الصحراء، وتُعد من رموز الحياة الصحراوية.",
+        "location": "محيطة بجانت من الجنوب والشرق",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Oases_Janet.jpg"
+      }
+    ]
+  },
+
+  {
+    "wilaya": "Timimoun",
+    "places": [
+      {
+        "name": "قصر الذراع",
+        "description": "قصر دائري الشكل مبني بالحجارة والطين، يقع وسط كثبان العرق الغربي الكبير، ويُعد من أبرز المعالم الغامضة في تيميمون.",
+        "location": "وسط كثبان العرق الغربي الكبير",
+        "imageUrl": "https://www.instagram.com/p/C3iiSXYt0cN/",
+        "mapUrl": "https://www.google.com/maps/place/Ksar+Draa"
+      },
+      {
+        "name": "قصر إغزر",
+        "description": "قصر تاريخي يبعد حوالي 20 كم عن تيميمون، يتميز بتصميمه المعماري التقليدي ويُعد من القصور السياحية البارزة في المنطقة.",
+        "location": "20 كم عن تيميمون",
+        "imageUrl": "https://www.facebook.com/ici.Adrar/posts/2924671294318601/",
+        "mapUrl": "https://www.google.com/maps/place/Ksar+Ighzer"
+      },
+      {
+        "name": "قصر أغلاد",
+        "description": "قرية تاريخية محصنة كانت تستخدم كمحطة للقوافل، تقع في قرية أغلاد وتُعد من المعالم البارزة في تيميمون.",
+        "location": "قرية أغلاد",
+        "imageUrl": "https://www.facebook.com/alhadath.algeria/posts/8595643897142705/",
+        "mapUrl": "https://www.google.com/maps/place/Ksar+Aghlad"
+      }
+    ]
+  },
+  {
+    "wilaya": "Skikda",
+    "places": [
+      {
+        "name": "ميناء ستورا",
+        "description": "أحد أقدم الموانئ في الجزائر، يتميز بموقعه الخلاب على البحر الأبيض المتوسط ويُعد مركزًا للصيد والنزهات البحرية.",
+        "location": "سكيكدة",
+        "imageUrl": "https://www.tripadvisor.com.eg/LocationPhotoDirectLink-g2602501-i152737172-Skikda_Skikda_Province.html",
+        "mapUrl": "https://www.google.com/maps/place/Port+de+Stora"
+      },
+      {
+        "name": "شاطئ العربي بن مهيدي",
+        "description": "شاطئ رملي واسع يتميز بمياهه الصافية، يُعد وجهة مفضلة للعائلات ومحبي السباحة.",
+        "location": "سكيكدة",
+        "imageUrl": "https://www.instagram.com/p/CrgPkG_NC87/",
+        "mapUrl": "https://www.google.com/maps/place/Plage+Larbi+Ben+M'hidi"
+      },
+      {
+        "name": "وادي الزهور",
+        "description": "وادي طبيعي تحيط به الغابات، يُعد مكانًا مثاليًا للتنزه والاستمتاع بالطبيعة.",
+        "location": "سكيكدة",
+        "imageUrl": "https://www.instagram.com/explore/locations/139592010045726/",
+        "mapUrl": "https://www.google.com/maps/place/Oued+Zhor"
+      }
+    ]
+  },
+
+  {
+    "wilaya": "El Tarf",
+    "places": [
+      {
+        "name": "حديقة القالة الوطنية",
+        "description": "محمية طبيعية تضم تنوعًا بيولوجيًا غنيًا من نباتات وحيوانات نادرة، وتُعد من أهم المحميات في الجزائر.",
+        "location": "القالة",
+        "imageUrl": "https://www.facebook.com/parczoobrabtia/",
+        "mapUrl": "https://www.google.com/maps/place/Parc+National+El+Kala"
+      },
+      {
+        "name": "بحيرة طونغا",
+        "description": "بحيرة طبيعية تُعد موطنًا للعديد من الطيور المهاجرة، وتُعتبر منطقة رطبة ذات أهمية دولية.",
+        "location": "الطارف",
+        "imageUrl": "https://www.facebook.com/100064604145555/posts/852338410262956/",
+        "mapUrl": "https://www.google.com/maps/place/Lac+Tonga"
+      },
+      {
+        "name": "القرية السياحية تروبيكانا",
+        "description": "منتجع سياحي يوفر إقامة مريحة وسط الطبيعة، مع مرافق ترفيهية متنوعة.",
+        "location": "الطارف",
+        "imageUrl": "https://www.instagram.com/reel/C7egRA8oBum/",
+        "mapUrl": "https://www.google.com/maps/place/Tropicana+Village"
+      }
+    ]
+  }
+]

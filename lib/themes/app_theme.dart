@@ -1,39 +1,55 @@
 import 'package:flutter/material.dart';
+import 'package:get_storage/get_storage.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:get/get.dart';
 
 class AppTheme {
+  static final _storage = GetStorage();
+  static const _themeKey = 'isDarkMode';
+
+  // Initialize the theme mode from storage
+  static final RxBool isDarkMode =
+      (_storage.read<bool>(_themeKey) ?? false).obs;
+
+  static ThemeData get currentTheme =>
+      isDarkMode.value ? darkTheme : lightTheme;
+
+  static void toggleTheme() {
+    isDarkMode.value = !isDarkMode.value;
+    _storage.write(_themeKey, isDarkMode.value); // Save preference
+  }
+
+  static final Color seedColor = Colors.blue[900]!;
+
   // Light Theme
   static ThemeData lightTheme = ThemeData(
-    brightness: Brightness.light,
-    primaryColor: Colors.deepPurple,
-    hintColor: Colors.amber,
+    useMaterial3: true,
+    colorScheme: ColorScheme.fromSeed(
+      seedColor: seedColor,
+      brightness: Brightness.light,
+    ),
     scaffoldBackgroundColor: Colors.white,
     textTheme: GoogleFonts.poppinsTextTheme().apply(
       bodyColor: Colors.black,
       displayColor: Colors.black,
     ),
     appBarTheme: AppBarTheme(
-      backgroundColor: Colors.deepPurple,
+      backgroundColor: seedColor,
       elevation: 0,
-      iconTheme: IconThemeData(color: Colors.white),
+      iconTheme: const IconThemeData(color: Colors.white),
       titleTextStyle: GoogleFonts.poppins(
         fontSize: 20,
         fontWeight: FontWeight.bold,
         color: Colors.white,
       ),
     ),
-    buttonTheme: ButtonThemeData(
-      buttonColor: Colors.deepPurple,
-      textTheme: ButtonTextTheme.primary,
-    ),
     elevatedButtonTheme: ElevatedButtonThemeData(
       style: ElevatedButton.styleFrom(
-        backgroundColor: Colors.deepPurple,
+        backgroundColor: seedColor,
+        foregroundColor: Colors.white,
         textStyle: GoogleFonts.poppins(
           fontSize: 16,
           fontWeight: FontWeight.w600,
-          color: Colors.white,
         ),
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(12),
@@ -43,42 +59,45 @@ class AppTheme {
     inputDecorationTheme: InputDecorationTheme(
       border: OutlineInputBorder(
         borderRadius: BorderRadius.circular(12),
-        borderSide: BorderSide(color: Colors.deepPurple),
+        borderSide: BorderSide(color: seedColor),
       ),
       focusedBorder: OutlineInputBorder(
         borderRadius: BorderRadius.circular(12),
-        borderSide: BorderSide(color: Colors.amber),
+        borderSide: const BorderSide(color: Colors.amber),
       ),
+      labelStyle: TextStyle(color: seedColor),
+      fillColor: Colors.grey[50],
+      filled: true,
     ),
+    visualDensity: VisualDensity.adaptivePlatformDensity,
   );
 
   // Dark Theme
   static ThemeData darkTheme = ThemeData(
-    brightness: Brightness.dark,
-    primaryColor: Colors.deepPurple,
-    hintColor: Colors.amber,
+    useMaterial3: true,
+    colorScheme: ColorScheme.fromSeed(
+      seedColor: seedColor,
+      brightness: Brightness.dark,
+    ),
     scaffoldBackgroundColor: Colors.black,
     textTheme: GoogleFonts.poppinsTextTheme().apply(
       bodyColor: Colors.white,
       displayColor: Colors.white,
     ),
     appBarTheme: AppBarTheme(
-      backgroundColor: Colors.deepPurple,
+      backgroundColor: seedColor,
       elevation: 0,
-      iconTheme: IconThemeData(color: Colors.white),
+      iconTheme: const IconThemeData(color: Colors.white),
       titleTextStyle: GoogleFonts.poppins(
         fontSize: 20,
         fontWeight: FontWeight.bold,
         color: Colors.white,
       ),
     ),
-    buttonTheme: ButtonThemeData(
-      buttonColor: Colors.deepPurple,
-      textTheme: ButtonTextTheme.primary,
-    ),
     elevatedButtonTheme: ElevatedButtonThemeData(
       style: ElevatedButton.styleFrom(
-        backgroundColor: Colors.deepPurple,
+        backgroundColor: seedColor,
+        foregroundColor: Colors.white,
         textStyle: GoogleFonts.poppins(
           fontSize: 16,
           fontWeight: FontWeight.w600,
@@ -91,21 +110,16 @@ class AppTheme {
     inputDecorationTheme: InputDecorationTheme(
       border: OutlineInputBorder(
         borderRadius: BorderRadius.circular(12),
-        borderSide: BorderSide(color: Colors.deepPurple),
+        borderSide: BorderSide(color: seedColor),
       ),
       focusedBorder: OutlineInputBorder(
         borderRadius: BorderRadius.circular(12),
-        borderSide: BorderSide(color: Colors.amber),
+        borderSide: const BorderSide(color: Colors.amber),
       ),
+      labelStyle: TextStyle(color: Colors.white),
+      fillColor: Colors.grey[900],
+      filled: true,
     ),
+    visualDensity: VisualDensity.adaptivePlatformDensity,
   );
-
-  // GetX Theme Switcher
-  static final RxBool isDarkMode = false.obs;
-
-  static ThemeData get currentTheme => isDarkMode.value ? darkTheme : lightTheme;
-
-  static void toggleTheme() {
-    isDarkMode.value = !isDarkMode.value;
-  }
 }

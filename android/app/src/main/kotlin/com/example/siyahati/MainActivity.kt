@@ -1,4 +1,4 @@
-package com.example.siyahati
+package com.tsukidev.rizervitoo
 
 import io.flutter.embedding.android.FlutterActivity
 

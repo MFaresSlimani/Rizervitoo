@@ -3,8 +3,8 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:path/path.dart' as p;
-import '../../controllers/user_controller.dart';
-import '../core/services/user_service.dart';
+import '../../../controllers/user_controller.dart';
+import '../../core/services/user_service.dart';
 
 class EditProfileScreen extends StatefulWidget {
   const EditProfileScreen({super.key});
@@ -88,7 +88,7 @@ class _EditProfileScreenState extends State<EditProfileScreen> {
             : const AssetImage('assets/avatar.png'));
 
     return Scaffold(
-      appBar: AppBar(title: const Text('Edit Profile')),
+      appBar: AppBar(title: Text('edit_profile'.tr)),
       body: Padding(
         padding: const EdgeInsets.all(16.0),
         child: ListView(
@@ -118,22 +118,22 @@ class _EditProfileScreenState extends State<EditProfileScreen> {
             const SizedBox(height: 20),
             TextField(
               controller: nameController,
-              decoration: const InputDecoration(labelText: 'Name'),
+              decoration: InputDecoration(labelText: 'name'.tr),
             ),
             const SizedBox(height: 12),
             TextField(
               controller: emailController,
-              decoration: const InputDecoration(labelText: 'Email'),
+              decoration: InputDecoration(labelText: 'email'.tr),
             ),
             const SizedBox(height: 12),
             TextField(
               controller: phoneController,
-              decoration: const InputDecoration(labelText: 'Phone Number'),
+              decoration: InputDecoration(labelText: 'phone_number'.tr),
             ),
             const SizedBox(height: 20),
             ElevatedButton(
               onPressed: _saveProfile,
-              child: const Text('Save Changes'),
+              child: Text('save'.tr),
             ),
           ],
         ),
