@@ -15,9 +15,9 @@ void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await GetStorage.init(); 
   await Supabase.initialize(
-    url: 'https://ouggsvmgkrqyoygehhxj.supabase.co',
+    url: 'i removed it',
     anonKey:
-        'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im91Z2dzdm1na3JxeW95Z2VoaHhqIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDU3OTA5MjEsImV4cCI6MjA2MTM2NjkyMX0.hHaQEVXlnzqZFOBDVx5woGLfUoqZiC-Tz9PIVg6n4nU',
+        'insert',
   );
   final box = GetStorage();
   String? langCode = box.read('locale');
