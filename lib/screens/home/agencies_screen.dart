@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:Rizervitoo/screens/agency/agency_details_screen.dart';
+import 'package:rizervitoo/screens/agency/agency_details_screen.dart';
 
 import '../../controllers/agency_controller.dart';
 import '../../widgets/agency_card.dart';

@@ -1,9 +1,9 @@
 import 'dart:io';
-import 'package:Rizervitoo/controllers/user_controller.dart';
+import 'package:rizervitoo/controllers/user_controller.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:image_picker/image_picker.dart';
-import 'package:Rizervitoo/core/services/property_service.dart';
+import 'package:rizervitoo/core/services/property_service.dart';
 
 import '../../models/property_model.dart';
 

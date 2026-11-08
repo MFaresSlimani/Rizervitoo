@@ -2,11 +2,11 @@ import 'package:fluentui_system_icons/fluentui_system_icons.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:google_nav_bar/google_nav_bar.dart';
-import 'package:Rizervitoo/controllers/user_controller.dart';
-import 'package:Rizervitoo/screens/home/fav_screen.dart';
-import 'package:Rizervitoo/screens/home/reservaton_screen.dart';
-import 'package:Rizervitoo/widgets/my_drawer.dart';
-import 'package:Rizervitoo/widgets/notifications_overlay.dart';
+import 'package:rizervitoo/controllers/user_controller.dart';
+import 'package:rizervitoo/screens/home/fav_screen.dart';
+import 'package:rizervitoo/screens/home/reservaton_screen.dart';
+import 'package:rizervitoo/widgets/my_drawer.dart';
+import 'package:rizervitoo/widgets/notifications_overlay.dart';
 import 'package:lucide_icons/lucide_icons.dart';
 
 import 'agencies_screen.dart';

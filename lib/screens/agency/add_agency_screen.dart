@@ -2,9 +2,9 @@ import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:image_picker/image_picker.dart';
-import 'package:Rizervitoo/controllers/agency_controller.dart';
-import 'package:Rizervitoo/controllers/user_controller.dart';
-import 'package:Rizervitoo/core/services/agency_service.dart';
+import 'package:rizervitoo/controllers/agency_controller.dart';
+import 'package:rizervitoo/controllers/user_controller.dart';
+import 'package:rizervitoo/core/services/agency_service.dart';
 import 'package:supabase_flutter/supabase_flutter.dart';
 import '../../widgets/loading_indicator.dart';
 

@@ -42,15 +42,34 @@ Rezervitoo is a modern mobile app built for people in Algeria looking to **rent 
 
 ## 📦 Built With
 
-- Flutter for UI  
-- Supabase for backend (auth, database, file storage)  
-- GetX for smooth state management and navigation  
+- Flutter (Android), GetX for state, navigation and dependency injection
+- Supabase: Auth, Postgres and Storage for property photos
+- GetStorage for local settings
+- Localization in Arabic (RTL), English and French; light and dark themes
+
+### Project structure
+
+```
+lib/
+  core/         services (auth, users, reservations), localization
+  controllers/  GetX controllers per feature
+  models/       data models
+  screens/      home, properties, agency, guide, profile, settings
+  widgets/      shared UI components
+```
+
+### Run
+
+```bash
+flutter pub get
+flutter run
+```
 
 ---
 
-## 🚧 Work in Progress (But Looking Good!)
+## 🚧 Status
 
-The app is shaping up nicely — lots of features are done, but I’m always tweaking and improving. Expect cool updates anytime, because this project never sleeps! Stay tuned and enjoy the ride!
+Core browsing, listing, reservation and guide flows are implemented. Ongoing work: tests and store release.
 
 ---
 
@@ -61,3 +80,6 @@ Mohamed Fares SLIMANI
 
 ---
 
+## License
+
+MIT, see [LICENSE](LICENSE).

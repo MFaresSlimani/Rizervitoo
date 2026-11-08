@@ -1,6 +1,6 @@
 import 'package:supabase_flutter/supabase_flutter.dart';
-import 'package:Rizervitoo/core/services/user_service.dart';
-import 'package:Rizervitoo/models/reservation_model.dart';
+import 'package:rizervitoo/core/services/user_service.dart';
+import 'package:rizervitoo/models/reservation_model.dart';
 import 'property_service.dart';
 
 class ReservationService {

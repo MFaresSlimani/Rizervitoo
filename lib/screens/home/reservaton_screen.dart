@@ -1,10 +1,10 @@
-import 'package:Rizervitoo/core/services/property_service.dart';
+import 'package:rizervitoo/core/services/property_service.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:intl/intl.dart';
-import 'package:Rizervitoo/core/services/reservation_service.dart';
-import 'package:Rizervitoo/controllers/user_controller.dart';
-import 'package:Rizervitoo/models/reservation_model.dart';
+import 'package:rizervitoo/core/services/reservation_service.dart';
+import 'package:rizervitoo/controllers/user_controller.dart';
+import 'package:rizervitoo/models/reservation_model.dart';
 
 class ReservationsScreen extends StatefulWidget {
   const ReservationsScreen({super.key});

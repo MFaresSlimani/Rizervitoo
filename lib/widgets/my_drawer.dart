@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:Rizervitoo/screens/guide/guide_screen.dart';
-import 'package:Rizervitoo/screens/profile/profile_screen.dart';
+import 'package:rizervitoo/screens/guide/guide_screen.dart';
+import 'package:rizervitoo/screens/profile/profile_screen.dart';
 import 'package:lucide_icons/lucide_icons.dart';
 
 import '../controllers/user_controller.dart';

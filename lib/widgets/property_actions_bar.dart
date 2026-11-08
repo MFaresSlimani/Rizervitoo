@@ -1,10 +1,10 @@
-import 'package:Rizervitoo/core/services/property_service.dart';
-import 'package:Rizervitoo/core/services/user_service.dart';
+import 'package:rizervitoo/core/services/property_service.dart';
+import 'package:rizervitoo/core/services/user_service.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:Rizervitoo/controllers/user_controller.dart';
-import 'package:Rizervitoo/screens/properties/make_reservation.dart';
-import 'package:Rizervitoo/screens/properties/property_details.dart';
+import 'package:rizervitoo/controllers/user_controller.dart';
+import 'package:rizervitoo/screens/properties/make_reservation.dart';
+import 'package:rizervitoo/screens/properties/property_details.dart';
 import 'package:overflow_text_animated/src.dart';
 import 'package:url_launcher/url_launcher.dart';
 import '../screens/properties/add_property_screen.dart';

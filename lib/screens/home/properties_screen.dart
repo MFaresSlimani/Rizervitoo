@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:Rizervitoo/core/services/property_service.dart';
+import 'package:rizervitoo/core/services/property_service.dart';
 import '../../controllers/property_controller.dart';
 import '../../widgets/property_card.dart';
 

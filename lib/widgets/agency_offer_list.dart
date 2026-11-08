@@ -1,4 +1,4 @@
-import 'package:Rizervitoo/controllers/agency_offer_controller.dart';
+import 'package:rizervitoo/controllers/agency_offer_controller.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import '../models/agency_offer.dart';

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:Rizervitoo/core/services/user_service.dart';
+import 'package:rizervitoo/core/services/user_service.dart';
 import '../../controllers/user_controller.dart';
 import '../../core/services/auth_service.dart';
 import '../home/home_screen.dart';

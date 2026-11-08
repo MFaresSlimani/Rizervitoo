@@ -1,7 +1,7 @@
-import 'package:Rizervitoo/controllers/user_controller.dart';
+import 'package:rizervitoo/controllers/user_controller.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:Rizervitoo/models/agency_model.dart';
+import 'package:rizervitoo/models/agency_model.dart';
 import 'package:url_launcher/url_launcher.dart';
 import '../../controllers/agency_controller.dart';
 import '../../controllers/agency_offer_controller.dart';

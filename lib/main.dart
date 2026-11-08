@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';
-import 'package:Rizervitoo/controllers/agency_controller.dart';
-import 'package:Rizervitoo/controllers/property_controller.dart';
-import 'package:Rizervitoo/core/services/auth_gate.dart';
-import 'package:Rizervitoo/core/services/auth_service.dart';
-import 'package:Rizervitoo/core/services/user_service.dart';
+import 'package:rizervitoo/controllers/agency_controller.dart';
+import 'package:rizervitoo/controllers/property_controller.dart';
+import 'package:rizervitoo/core/services/auth_gate.dart';
+import 'package:rizervitoo/core/services/auth_service.dart';
+import 'package:rizervitoo/core/services/user_service.dart';
 import 'package:supabase_flutter/supabase_flutter.dart';
 import 'controllers/user_controller.dart';
 import 'core/localization/app_translations.dart';

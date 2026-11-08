@@ -1,6 +1,6 @@
 import 'dart:io';
-import 'package:Rizervitoo/core/services/property_service.dart';
-import 'package:Rizervitoo/models/user_model.dart';
+import 'package:rizervitoo/core/services/property_service.dart';
+import 'package:rizervitoo/models/user_model.dart';
 import 'package:supabase_flutter/supabase_flutter.dart';
 import 'package:uuid/uuid.dart';
 
